@@ -92,10 +92,10 @@ void displayStatus(){
     txt = "Placing";
   }
   if(destroyBool){
-    txt += " and\nHitting";
+    txt += " \nHitting";
   }
   if(walkBool){
-    txt += " and\nWalking";
+    txt += " \nWalking";
   }
 
   if(txt != "" && (millis() % 100 == 0)){
